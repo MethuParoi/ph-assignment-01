@@ -35,4 +35,59 @@ body {
     border: 1px solid #3d424d;
     border-radius: 5px;
     background-color: #ffffff;
+    cursor: pointer;
+}
+
+/* hero section styles */
+
+.hero {
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/Hero-bg.png);
+}
+
+.hero__content3 {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.hero--title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero--desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero--btn {
+    width: 208px;
+    height: 66px;
+    padding: 21px, 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+    /* why web development section styles  */
+
+.why-dev {
+    margin: 75px 150px;
+    padding: 80px 97px;
+    background-color: #fafafb;
 }
