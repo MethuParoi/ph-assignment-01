@@ -311,3 +311,78 @@ body {
 
 /* I need support section styles */
 
+.ins-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ins {
+    margin: 50px 150px;
+    padding: 64px 48px;
+    height: 313px;
+    width: 1310px;
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.ins--title {
+    margin: 16px 0px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ins--desc {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.ins--input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    margin: 0 16px;
+}
+
+.ins--input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    text-align: left;
+    padding-left: 10px;
+    margin: 0 10px;
+}
+
+.ins--btn {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    padding: 17px 20px;
+    margin: 0 26px;
+    width: 120px;
+    height: 57px;
+    border: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* footer section styles */
