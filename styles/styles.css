@@ -87,8 +87,9 @@ body {
     /* why web development section styles  */
 
 .why-dev {
-    margin: 75px 150px;
+    margin: 75px auto;
     padding: 80px 97px;
+    width: 1300px;
     background-color: #f4f4f4;
     border-radius: 10px;
 }
@@ -164,8 +165,6 @@ body {
 }
 
 .card__btn {
-    width: 150px;
-    height: 48px;
     padding: 12px 20px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 5px;
@@ -174,7 +173,7 @@ body {
     color: rgb(13, 19, 33);
     background-color: #fafafb;
     cursor: pointer;
-    text-align: center;
+    
 }
 
 /* My inspiration section styles */
@@ -196,6 +195,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+}
+
+.mi__ch2 iframe{
+    border-radius: 30px;
+}
+
+.mi--gc {
+    border: 2px solid #dbdcde;
+    padding: 25px;
+    border-radius: 30px;
 }
 
 .mi--title {
@@ -214,24 +224,6 @@ body {
     margin: 5px 0;
 }
 
-/* .mi__ch2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.mi--gc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-.frame {
-    padding: 32px;
-    border: 2px solid #dbdcde;
-    border-radius: 30px;
-    overflow: hidden;
-}
 
     /* My Current Target section*/
 
@@ -292,7 +284,6 @@ body {
     width: 50px;
 }
 
-.mct-card--title {}
 
 .mct-card--desc {
     padding-top: 20px;
@@ -390,7 +381,6 @@ body {
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
     padding: 17px 20px;
-    margin: 0 26px;
     width: 120px;
     height: 57px;
     border: transparent;
@@ -406,6 +396,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f7fbfb;
 }
 
 .footer {
@@ -415,6 +406,7 @@ body {
     padding: 32px 0;
     width: 1410px;
     height: 36px;
+    
 }
 
 .footer--text {
