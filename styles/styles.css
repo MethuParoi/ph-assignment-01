@@ -219,3 +219,95 @@ body {
 }
 
     /* My Current Target section*/
+
+.mct {
+    margin-top: 149px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-height: 463px;
+}
+
+.mct__ch1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mct--title {
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.mct--desc {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 852px;
+    margin: 24px 0;
+}
+
+/* cards */
+
+.mct__ch2 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.mct__gc {
+    width: 364px;
+    height: 300px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 20px;
+}
+
+.mct-card--img {
+    width: 50px;
+}
+
+.mct-card--title {}
+
+.mct-card--desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mct-card--link {
+    /* margin-top: 30px; */
+    display: block;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.mct-card1 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.mct-card2 {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.mct-card3 {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* I need support section styles */
+
