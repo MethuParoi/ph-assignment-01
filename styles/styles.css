@@ -6,6 +6,9 @@
   font-style: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* applied for all elements */
 body {
     font-family: "Azeret Mono", monospace;
@@ -180,6 +183,12 @@ body {
     margin-left: 150px;
     margin-right: 150px;
     height: 777px;
+    /* width: 1440px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .mi__ch1 {
@@ -205,11 +214,17 @@ body {
     margin: 5px 0;
 }
 
-.mi__ch2 {
+/* .mi__ch2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.mi--gc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .frame {
     padding: 32px;
@@ -386,3 +401,32 @@ body {
 }
 
 /* footer section styles */
+
+.footer-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    width: 1410px;
+    height: 36px;
+}
+
+.footer--text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    /* margin: 0 16px; */
+}
+
+.footer__ch2 {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
